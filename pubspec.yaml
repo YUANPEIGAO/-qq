@@ -1,0 +1,36 @@
+name: qq_chat_bot
+description: Flutter+Chaquopy QQ聊天机器人应用
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  flutter_bloc: ^8.1.5
+  equatable: ^2.0.5
+  shared_preferences: ^2.2.2
+  path_provider: ^2.1.2
+  file_picker: ^6.1.1
+  url_launcher: ^6.2.5
+  fluttertoast: ^8.2.4
+  permission_handler: ^11.3.1
+  logger: ^2.3.0
+  json_annotation: ^4.8.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.6
+  json_serializable: ^6.7.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+
+dependency_overrides:
+  web_socket_channel: ^2.4.0
